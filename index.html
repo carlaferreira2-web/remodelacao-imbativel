@@ -1,1 +1,158 @@
-<html><body><h1>Placeholder for index.html</h1></body></html>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remodelação Imbatível – Porto & Aveiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #1c1c1c;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #1c1c1c, #2a2a2a);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #ccc;
+    }
+    nav {
+      background-color: #f6f6f6;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      color: #1c1c1c;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .service {
+      flex: 1 1 calc(33% - 2rem);
+      background: #fafafa;
+      border: 1px solid #eee;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .gallery img {
+      width: 48%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .testimonials {
+      background: #f9f9f9;
+      border-left: 4px solid #c6a972;
+      padding: 1rem 2rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+    footer {
+      background: #1c1c1c;
+      color: #eee;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    a.button {
+      display: inline-block;
+      background: #c6a972;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .services, .gallery {
+        flex-direction: column;
+      }
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Remodelação Imbatível</h1>
+    <p>Transformamos espaços com elegância e eficiência</p>
+    <a href="#contacto" class="button">Peça Orçamento</a>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Antes & Depois</a>
+    <a href="#testemunhos">Testemunhos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Remodelação Imbatível atua nas regiões do Porto e Aveiro com foco em qualidade, bom gosto e cumprimento de prazos. Somos especialistas em transformar espaços antigos em ambientes modernos, funcionais e esteticamente elegantes.</p>
+  </section>
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="service"><h3>Remodelações Totais</h3><p>Transformamos imóveis antigos em casas modernas.</p></div>
+      <div class="service"><h3>Cozinhas & WC</h3><p>Projetos funcionais com acabamentos premium.</p></div>
+      <div class="service"><h3>Interiores & Exteriores</h3><p>Pintura, isolamento, pequenos arranjos e reparações.</p></div>
+    </div>
+  </section>
+  <section id="galeria">
+    <h2>Antes & Depois</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1560448070-cd97f6e4e4e0" alt="Antes">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Depois">
+    </div>
+  </section>
+  <section id="testemunhos">
+    <h2>Testemunhos</h2>
+    <div class="testimonials">“Cumpriram prazos e o resultado foi melhor do que esperava!” – Rui, Gaia</div>
+    <div class="testimonials">“A nossa cozinha parece saída de uma revista!” – Ana, Espinho</div>
+    <div class="testimonials">“Simpatia, qualidade e preço justo.” – João, Aveiro</div>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Telefone: +351 912 345 678<br>Email: geral@remodelacaoimbativel.pt<br>
+    <a class="button" href="https://wa.me/351912345678" target="_blank">Enviar WhatsApp</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Remodelação Imbatível. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
